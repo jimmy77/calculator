@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
     <title>Calculator</title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" type = "text/css" href = "calculator.css">
-    <script src="calculator.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -12,7 +11,7 @@
       <h2>James and Iris' <br>
         Super Awesome Amazing Mega Calculator</h2>
       <div class="calculator">
-        <input class="input">
+        <input class="input" type="text" id="display" value="0">
         <div class="row">
           <button id="clear" class="ctrl-wide" value="AC">AC</button>
           <button id="clear" class="ctrl" value="CE">CE</button>
@@ -23,7 +22,7 @@
           <button id="seven" class="button" value="7">7</button>
           <button id="eight" class="button" value="8">8</button>
           <button id="nine" class="button" value="9">9</button>
-          <button id="multiply" class="button" value="*">x</button> 
+          <button id="multiply" class="button" value="*">X</button> 
         </div>
         
         <div class="row">
@@ -48,5 +47,6 @@
         
       </div>
     </div>
+    <script src="calculator.js"></script>
   </body>
 </html>
